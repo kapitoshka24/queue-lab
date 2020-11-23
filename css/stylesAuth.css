@@ -10,7 +10,7 @@
 .main .block {
   position: absolute;
   text-align: center;
-  top: 47%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 
