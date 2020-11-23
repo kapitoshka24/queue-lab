@@ -25,7 +25,6 @@
             <a href="./index.html" class="btn">Головна сторінка</a>
           </li>
           <li class="item"><a href="" class="btn">Інформація</a></li>
-          <li class="item"><a href="./auth.html" class="btn">Увійти</a></li>
         </ul>
       </div>
     </header>
@@ -82,7 +81,9 @@
               Забули пароль?
             </a>
 
-            <button type="submit" class="btn">Увійти</button>
+            <button type="submit" class="btn">
+              <a href="./account.html" class="link">Увійти</a>
+            </button>
           </div>
         </form>
       </div>
@@ -118,5 +119,12 @@
         </li>
       </ul>
     </footer>
+    <script>
+      const { height: pageFooterHeight } = document
+        .querySelector(".footer")
+        .getBoundingClientRect();
+
+      document.body.style.paddingBottom = `${pageFooterHeight}px`;
+    </script>
   </body>
 </html>

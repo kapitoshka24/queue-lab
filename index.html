@@ -76,5 +76,12 @@
         </li>
       </ul>
     </footer>
+    <script>
+      const { height: pageFooterHeight } = document
+        .querySelector(".footer")
+        .getBoundingClientRect();
+
+      document.body.style.paddingBottom = `${pageHeaderHeight}px`;
+    </script>
   </body>
 </html>

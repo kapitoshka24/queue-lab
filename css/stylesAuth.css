@@ -18,7 +18,7 @@
   border-radius: 20px;
   width: 660px;
   height: 500px;
-  padding: 15px 20px;
+  padding: 30px 30px;
 }
 .flex {
   display: flex;
@@ -82,14 +82,6 @@
   align-items: center;
   margin-top: 25px;
 }
-/* .wrapper {
-  position: relative;
-}
-.wrapper .svg-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-} */
 .pas {
   position: relative;
   font-family: Roboto;
@@ -115,6 +107,7 @@
   transform: translate(-115%, -20%);
 }
 .form .btn {
+  outline: none;
   padding: 6px;
   margin-left: auto;
   margin-right: 20px;
