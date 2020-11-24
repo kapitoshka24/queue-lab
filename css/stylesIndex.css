@@ -8,7 +8,8 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+ul {
   margin: 0;
   padding: 0;
 }
@@ -24,8 +25,9 @@ body {
   color: inherit;
 }
 .header {
-  margin-left: 150px;
-  margin-right: 150px;
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 20px;
   display: flex;
   align-items: center;
@@ -161,6 +163,9 @@ body {
   justify-content: center;
   align-items: center;
   height: 70px;
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer > .list > .item {
   position: relative;
@@ -183,4 +188,5 @@ body {
   margin-right: 10px;
   opacity: 1;
   transform: translateY(-15%);
+  fill: #47523c;
 }
